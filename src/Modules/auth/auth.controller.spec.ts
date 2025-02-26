@@ -31,7 +31,7 @@ describe('AuthController', () => {
   });
 
   it('Should be return access token', ()=>{
-    const result = {access_token: 'mock-token'}; 
+    const result = {access_token: 'mock-toke'}; 
     expect(controller.login({username: 'test', password: 'password'})).toEqual(result);
   });
 
